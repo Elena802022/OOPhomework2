@@ -5,6 +5,7 @@ package Lesson4.Homework;
 
 
 public class Teacher {
+    private final int age;
     String name;
     String surname;
 
@@ -28,5 +29,10 @@ public class Teacher {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public int getAge() {
+        return age;
+
     }
 }
